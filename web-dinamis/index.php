@@ -283,7 +283,7 @@
         'Mobile Legends' => [
             'genre'    => 'MOBA',
             'currency' => 'Diamonds',
-            'img'      => 'assets/img/Mobile Legends.jpg',
+            'img'      => 'assets/img/Mobile legends.jpg',
         ],
         'Free Fire' => [
             'genre'    => 'Battle Royale',
