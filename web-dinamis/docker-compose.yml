@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  web:
+    image: uciiboss/uas-dinamis:latest
+    ports:
+      - "3000:80"
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+      DB_USER: root
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_NAME: uas_topup
+    restart: always
+    networks:
+      - topup-network
+
+  db:
+    image: mariadb:10.6
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      MYSQL_DATABASE: uas_topup
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - topup-network
+
+volumes:
+  db_data:
+
+networks:
+  topup-network:
+    driver: bridge
