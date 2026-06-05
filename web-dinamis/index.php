@@ -283,17 +283,17 @@
         'Mobile Legends' => [
             'genre'    => 'MOBA',
             'currency' => 'Diamonds',
-            'img'      => 'assets/img/Mobile Legends.png',
+            'img'      => 'assets/img/Mobile Legends.jpg',
         ],
         'Free Fire' => [
             'genre'    => 'Battle Royale',
             'currency' => 'Diamonds',
-            'img'      => 'assets/img/Free Fire.png',
+            'img'      => 'assets/img/Free Fire.jpg',
         ],
         'Genshin Impact' => [
             'genre'    => 'RPG',
             'currency' => 'Primogems',
-            'img'      => 'assets/img/Genshin Impact.png',
+            'img'      => 'assets/img/Genshin Impact.jpg',
         ],
     ];
     ?>
