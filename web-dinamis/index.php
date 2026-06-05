@@ -283,17 +283,17 @@
         'Mobile Legends' => [
             'genre'    => 'MOBA',
             'currency' => 'Diamonds',
-            'img'      => 'https://www.google.com/imgres?q=mobile%20legends&imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FM%2FMV5BODhlZDk5Y2EtMGFhOS00MTQ5LTgwNjgtYTI2ZmE1Y2ZjMDE2XkEyXkFqcGc%40._V1_.jpg&imgrefurl=https%3A%2F%2Ftranslate.google.com%2Ftranslate%3Fu%3Dhttps%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt7568640%2F%26hl%3Did%26sl%3Den%26tl%3Did%26client%3Dimgs&docid=WVp5gUyGebYU6M&tbnid=ApGd0mtzs_xGzM&vet=12ahUKEwiV6OmK2_CUAxXQjWMGHbQUGYcQnPAOegQIGRAB..i&w=1200&h=1800&hcb=2&ved=2ahUKEwiV6OmK2_CUAxXQjWMGHbQUGYcQnPAOegQIGRAB',
+            'img'      => 'assets/img/Mobile Legends.png',
         ],
         'Free Fire' => [
             'genre'    => 'Battle Royale',
             'currency' => 'Diamonds',
-            'img'      => 'https://www.google.com/imgres?q=free%20fire&imgurl=https%3A%2F%2Fdownloadr2.apkmirror.com%2Fwp-content%2Fuploads%2F2026%2F03%2F99%2F69d5da7625670_com.dts.freefireth.png&imgrefurl=https%3A%2F%2Ftranslate.google.com%2Ftranslate%3Fu%3Dhttps%3A%2F%2Fwww.apkmirror.com%2Fapk%2Fgarena-international-i-private-limited%2Fgarena-free-fire%2F%26hl%3Did%26sl%3Den%26tl%3Did%26client%3Dimgs&docid=BLj8sJgKWvs7-M&tbnid=iKqHhwsCevV_2M&vet=12ahUKEwjIraHI2_CUAxWHwzgGHcLgC8oQnPAOegQIHxAB..i&w=512&h=512&hcb=2&ved=2ahUKEwjIraHI2_CUAxWHwzgGHcLgC8oQnPAOegQIHxAB',
+            'img'      => 'assets/img/Free Fire.png',
         ],
         'Genshin Impact' => [
             'genre'    => 'RPG',
             'currency' => 'Primogems',
-            'img'      => 'https://www.google.com/imgres?q=genshin%20impact&imgurl=https%3A%2F%2Fimage.api.playstation.com%2Fvulcan%2Fap%2Frnd%2F202508%2F2602%2F30935168a0f21b6710dc2bd7bb37c23ed937fb9fa747d84c.png&imgrefurl=https%3A%2F%2Fwww.playstation.com%2Fen-gr%2Fgames%2Fgenshin-impact%2F&docid=UhMsdXqFG2IegM&tbnid=A1rMGOld7PfL6M&vet=12ahUKEwib0IHk2_CUAxWl3zgGHd3sJyoQnPAOegQIGhAB..i&w=1024&h=1024&hcb=2&ved=2ahUKEwib0IHk2_CUAxWl3zgGHd3sJyoQnPAOegQIGhAB',
+            'img'      => 'assets/img/Genshin Impact.png',
         ],
     ];
     ?>
