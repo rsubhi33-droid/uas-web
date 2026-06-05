@@ -23,8 +23,7 @@ CREATE TABLE IF NOT EXISTS admin (
     password VARCHAR(255) NOT NULL
 );
 
--- Seed produk awal
-INSERT INTO produk_game (nama_game, nominal, harga) VALUES
+INSERT IGNORE INTO produk_game (nama_game, nominal, harga) VALUES
 ('Mobile Legends', '86 Diamonds', 20000),
 ('Mobile Legends', '172 Diamonds', 39000),
 ('Mobile Legends', '257 Diamonds', 58000),
@@ -35,6 +34,6 @@ INSERT INTO produk_game (nama_game, nominal, harga) VALUES
 ('Genshin Impact', '60 Primogems', 15000),
 ('Genshin Impact', '300 Primogems', 75000);
 
--- Seed akun admin (password: admin123)
-INSERT INTO admin (username, password) VALUES
+-- password: admin123
+INSERT IGNORE INTO admin (username, password) VALUES
 ('admin', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi');
