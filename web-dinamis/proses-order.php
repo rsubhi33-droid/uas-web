@@ -22,7 +22,7 @@ mysqli_stmt_bind_param($stmt, "sssssi", $invoice, $user_id, $zone_id, $nama_game
 
 if (mysqli_stmt_execute($stmt)) {
     // GANTI dengan nomor WhatsApp kamu (kode negara 62, tanpa +)
-    $no_wa = "6281234567890";
+    $no_wa = "6281572073171";
     $harga_format = "Rp " . number_format($total_harga, 0, ',', '.');
     $pesan = "Halo Admin, saya mau bayar pesanan top-up.\n\n"
            . "📋 *Invoice:* {$invoice}\n"
