@@ -193,10 +193,15 @@ $total_sukses    = mysqli_fetch_assoc(mysqli_query($koneksi, "SELECT COUNT(*) as
         tbody tr td {
             background: transparent !important;
             border-bottom: 1px solid rgba(255,255,255,0.04) !important;
-            color: #e8e9ef;
+            color: #ffffff !important;
             font-size: 13px;
             padding: 12px 16px !important;
             vertical-align: middle;
+        }
+        tbody tr td:nth-child(2),
+        tbody tr td:nth-child(4) {
+            color: #ffffff !important;
+            opacity: 1 !important;
         }
         tbody tr:last-child td { border-bottom: none !important; }
         tbody tr:hover td { background: rgba(255,255,255,0.02) !important; }
