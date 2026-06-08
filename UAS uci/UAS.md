@@ -7,6 +7,7 @@
 3. Membuat Elastic IP
 ![alt text](image-2.png)
 4. Karena kita menggunakan instance baru, install based docker dokumen https://docs.docker.com/engine/install/ubuntu/
+![alt text](image-10.png)
 5. Membuat Repository baru di docker.hub untuk web-statis & web-dinamis
 ![alt text](image-3.png)
 ![alt text](image-4.png)
