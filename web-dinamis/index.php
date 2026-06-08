@@ -246,7 +246,7 @@
     <div class="container">
         <a class="navbar-brand" href="index.php">
             <div class="brand-dot"></div>
-            UCII STORE
+            UCII STORE-2388010043
         </a>
         <div class="ms-auto">
             <a href="cek-invoice.php" class="btn-cek">
